@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # Rail Fence Cipher Encoder/Decoder
 
 This project contains two functions: `encode_rail_fence_cipher` and `decode_rail_fence_cipher`, which implement the Rail Fence Cipher encoding and decoding logic respectively.
@@ -8,8 +7,6 @@ This project contains two functions: `encode_rail_fence_cipher` and `decode_rail
 ## What is the Rail Fence Cipher?
 
 The **Rail Fence Cipher** is a form of transposition cipher. It writes the message in a zigzag pattern (like a rail fence), and then reads off each rail row-wise to form the encoded message. Decoding reverses this process.
-
----
 
 ## Functions
 
@@ -24,8 +21,6 @@ Encodes a given string using the Rail Fence Cipher with `n` rails.
 #### Returns:
 - Encoded string (cipher text).
 
----
-
 ### `decode_rail_fence_cipher(cipher_text, n)`
 
 Decodes a given Rail Fence Cipher text back to the original plain text.
@@ -37,19 +32,13 @@ Decodes a given Rail Fence Cipher text back to the original plain text.
 #### Returns:
 - Decoded string (original message).
 
----
-
 ## Example
 
-```python
 encode_rail_fence_cipher("WEAREDISCOVEREDFLEEATONCE", 3)
 # Output: "WECRLTEERDSOEEFEAOCAIVDEN"
 
 decode_rail_fence_cipher("WECRLTEERDSOEEFEAOCAIVDEN", 3)
 # Output: "WEAREDISCOVEREDFLEEATONCE"
-```
-
----
 
 ## Codewars Kata
 
@@ -59,13 +48,9 @@ This implementation is a solution to a **Codewars Kata** challenge.
 - Level: 3 kyu
 - This code was adapted or used for solving the kata as part of practicing algorithmic thinking and Python coding.
 
----
-
 ## Requirements
 
 - Python 3.x
-
----
 
 ## File Structure
 
